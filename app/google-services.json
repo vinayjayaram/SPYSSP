@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "740191690052",
+    "firebase_url": "https://spyssptest.firebaseio.com",
+    "project_id": "spyssptest",
+    "storage_bucket": "spyssptest.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:740191690052:android:726b988cbdf0f086360b11",
+        "android_client_info": {
+          "package_name": "com.vj.yoga.spyss"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "740191690052-b7fm09vck2d43v818npvom8gce1m00un.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBFgZMoVYs0RdF-KpZX9bA7PHf6hmXe0EQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "740191690052-b7fm09vck2d43v818npvom8gce1m00un.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

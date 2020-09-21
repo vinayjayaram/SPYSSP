@@ -1,0 +1,166 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:theme="@style/MyToolbarTheme"
+    android:background="@color/secondaryLightColor"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="@color/primaryLightColor"
+        android:elevation="@dimen/TEN_DP"
+        app:cardMaxElevation="@dimen/FIVE_DP"
+        app:cardCornerRadius="@dimen/FIVE_DP"
+        app:cardPreventCornerOverlap="true"
+        app:cardUseCompatPadding="true"
+        android:layout_margin="2dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <ImageView
+                android:id="@+id/branchimage"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/branch2" />
+            <LinearLayout
+                android:id="@+id/branchLinearlayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="@dimen/FIVE_DP">
+                <TextView
+                    android:id="@+id/branchname"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:text="SPYSS YOGA (Free Yoga Since 1980) : Ganesha Shaake, BTM 2nd Stage"
+                    android:textColor="@color/primaryTextColor"
+                    android:textSize="18sp" />
+                <TextView
+                    android:id="@+id/branchcontact"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Contact: 8660629036"
+                    android:textColor="@color/primaryTextColor" />
+
+                <TextView
+                    android:id="@+id/branchtype"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Type: General"
+                    android:textColor="@color/primaryTextColor" />
+                <TextView
+                    android:id="@+id/branchtime"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Timings: 5:30–7am; 8:30–10am; 11am–12:30pm; 4–5:30pm"
+                    android:textColor="@color/primaryTextColor" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_gravity="center"
+                android:layout_weight="3"
+                android:baselineAligned="false"
+                android:layout_margin="@dimen/FIVE_DP">
+                <LinearLayout
+                    android:id="@+id/share_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:weightSum="1"
+                    android:background="@drawable/curve_bg"
+                    android:orientation="horizontal" >
+
+                    <ImageView
+                        android:id="@+id/imgshare"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="5dp"
+                        android:src="@drawable/share" />
+
+                    <TextView
+                        android:id="@+id/textViewshare"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:paddingStart="@dimen/FIVE_DP"
+                        android:paddingLeft="@dimen/FIVE_DP"
+                        android:paddingEnd="@dimen/FIVE_DP"
+                        android:paddingRight="@dimen/FIVE_DP"
+                        android:textColor="@color/primaryTextColor"
+                        android:layout_margin="5dp"
+                        android:text="SHARE " />
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/google_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:weightSum="1"
+                    android:background="@drawable/curve_bg"
+                    android:layout_marginLeft="@dimen/FIVE_DP"
+                    android:clickable="true"
+                    android:orientation="horizontal" >
+
+                    <ImageView
+                        android:id="@+id/img"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="5dp"
+                        android:src="@drawable/googlefinder" />
+
+                    <TextView
+                        android:id="@+id/textView2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:paddingStart="@dimen/FIVE_DP"
+                        android:paddingLeft="@dimen/FIVE_DP"
+                        android:paddingEnd="@dimen/FIVE_DP"
+                        android:paddingRight="@dimen/FIVE_DP"
+                        android:textColor="@color/primaryTextColor"
+                        android:layout_margin="5dp"
+                        android:text="OPEN " />
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/button_call"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:weightSum="1"
+                    android:background="@drawable/curve_bg"
+                    android:layout_marginLeft="@dimen/FIVE_DP"
+                    android:orientation="horizontal" >
+
+                    <ImageView
+                        android:id="@+id/call"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="5dp"
+                        android:src="@drawable/ic_phone_black_24dp" />
+
+                    <TextView
+                        android:id="@+id/textViewcall"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:paddingStart="@dimen/FIVE_DP"
+                        android:paddingLeft="@dimen/FIVE_DP"
+                        android:paddingEnd="@dimen/FIVE_DP"
+                        android:paddingRight="@dimen/FIVE_DP"
+                        android:textColor="@color/primaryTextColor"
+                        android:layout_margin="5dp"
+                        android:text="CALL " />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+
+</RelativeLayout>

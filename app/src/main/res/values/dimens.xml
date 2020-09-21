@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="TEN_DP">10dp</dimen>
+    <dimen name="FIVE_DP">5dp</dimen>
+    <dimen name="thumbnail">100dp</dimen>
+    <dimen name="smallicons">75dp</dimen>
+</resources>
